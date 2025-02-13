@@ -1,0 +1,19 @@
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product img {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  #product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

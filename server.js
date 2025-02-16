@@ -1,29 +1,19 @@
-const express = require("express");
-const axios = require("axios");
-const cors = require("cors"); // Allows frontend to talk to backend
-require("dotenv").config();
-
-const app = express();
-app.use(cors()); // Enable CORS for frontend access
-app.use(express.json());
-
-const PRINTFUL_API_KEY = process.env.PRINTFUL_API_KEY;
-
-app.get("/products", async (req, res) => {
+app.get("/api/products", async (req, res) => {
   try {
-    const response = await axios.get("https://api.printful.com/store/products", {
-      headers: { Authorization: `Bearer ${PRINTFUL_API_KEY}` },
+    const response = await fetch("https://api.printful.com/store/products", {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${process.env.PRINTFUL_API_KEY}`,
+        "Content-Type": "application/json",
+      },
     });
 
-    console.log("Printful Response:", response.data); // Logs API response in the backend
+    const data = await response.json();
+    console.log("💡 Răspuns API Printful:", data); // 🔥 Vezi ce primește serverul tău
 
-    res.json(response.data);
+    res.json(data);
   } catch (error) {
-    console.error("Error:", error.response?.data || error.message);
-    res.status(500).json({ error: error.message });
+    console.error("❌ Eroare la obținerea produselor:", error);
+    res.status(500).json({ error: "Eroare la obținerea produselor" });
   }
 });
-
-
-
-app.listen(3000, () => console.log("Server running on http://localhost:3000"));

@@ -1,18 +1,21 @@
 async function fetchProducts() {
-    try {
-      const response = await fetch("http://localhost:3000/products");
-      if (!response.ok) throw new Error("Failed to fetch products");
-  
-      const data = await response.json();
-      console.log("Products:", data);
-  
-      document.getElementById("products").innerHTML = data.result
-        .map(product => `<p>${product.name}</p>`)
-        .join("");
-    } catch (error) {
-      console.error("Error fetching products:", error);
-    }
+  try {
+    const response = await fetch("https://mari0ddev.vercel.app/api/products");
+    console.log(response); // Vezi răspunsul complet
+    if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+    
+    const data = await response.json();
+    console.log(data); // Vezi în Console dacă apar produsele
+
+    const productContainer = document.getElementById("product-list");
+    data.result.forEach(product => {
+      const div = document.createElement("div");
+      div.innerHTML = `<h3>${product.name}</h3>`;
+      productContainer.appendChild(div);
+    });
+  } catch (error) {
+    console.error("Error fetching products:", error);
   }
-  
-  fetchProducts();
-  
+}
+
+fetchProducts();

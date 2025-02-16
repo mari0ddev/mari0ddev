@@ -1,19 +1,19 @@
-app.get("/api/products", async (req, res) => {
-  try {
-    const response = await fetch("https://api.printful.com/store/products", {
-      method: "GET",
-      headers: {
-        Authorization: `Bearer ${process.env.PRINTFUL_API_KEY}`,
-        "Content-Type": "application/json",
-      },
-    });
+const express = require("express");
+const app = express();
 
-    const data = await response.json();
-    console.log("💡 Răspuns API Printful:", data); // 🔥 Vezi ce primește serverul tău
+app.use(express.json());
 
-    res.json(data);
-  } catch (error) {
-    console.error("❌ Eroare la obținerea produselor:", error);
-    res.status(500).json({ error: "Eroare la obținerea produselor" });
-  }
+// Ruta API pentru produse
+app.get("/api/products", (req, res) => {
+  res.json({
+    success: true,
+    products: [
+      { id: 1, name: "Tricou", price: 99.99 },
+      { id: 2, name: "Hanorac", price: 149.99 },
+    ],
+  });
 });
+
+// Port pentru Vercel (obligatoriu)
+module.exports = app;
+

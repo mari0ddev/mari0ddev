@@ -1,5 +1,6 @@
 👋 Hi, I'm Mario Dumitrica
 
+
  🙋‍♂️ About Me
 Self-taught front-end developer with a passion for clean UI, modern JavaScript (ES6+), and building interactive,
 responsive web applications. Skilled in React, APIs, and version control with Git/GitHub.

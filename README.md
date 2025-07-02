@@ -1,7 +1,5 @@
 
 👋 Hi, I'm Mario Dumitrica
-
-
 ---
 
  🙋‍♂️ About Me

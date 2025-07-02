@@ -22,6 +22,7 @@ Chrome DevTools
 - Baccalaureate
 
 🌐 Connect with me:
+
 <a href="https://www.linkedin.com/in/mario-dumi-560066358/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
 </a>

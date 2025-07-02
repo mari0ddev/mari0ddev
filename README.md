@@ -1,16 +1,30 @@
-## Hi there 👋
+👋 Hi, I'm Mario Dumitrica
 
-<!--
-**mari0ddev/mari0ddev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ 🙋‍♂️ About Me
+Self-taught front-end developer with a passion for clean UI, modern JavaScript (ES6+), and building interactive,
+responsive web applications. Skilled in React, APIs, and version control with Git/GitHub.
 
-Here are some ideas to get you started:
+ 🛠️ Tech Stack: HTML , CSS , JS (ES+6) , SQL, React.js, Node.js, Express.js, JSX , Git, GitHub, REST APIs, Stripe API,
+Nodemon, Responsive Design, Mobile-First Approach, LocalStorage, Deployment (Vercel), Debugging, Manual Testing,
+Chrome DevTools
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📂 Projects
+    -Weather Pixel App 
+    -Ecommerce Store
+    -To-Do List App 
+    
+
+🚀 What I'm Up To
+ Crafting AI-powered integrations and building tools to empower beginner traders to conquer the markets! 📈
+ 📜 Certifications
+- [✔️ Responsive Web Design (freeCodeCamp)](https://www.freecodecamp.org/certification/MarioDumi27/responsive-web-design)
+- JavaScript Algorithms (in progress)
+- Baccalaureate
+
+🌐 Connect with me:
+<a href="https://www.linkedin.com/in/mario-dumi-560066358/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+</a>
+  
+
+

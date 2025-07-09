@@ -3,8 +3,8 @@
 ---
 
  🙋‍♂️ About Me
-Self-taught front-end developer with a passion for clean UI, modern JavaScript (ES6+), and building interactive,
-responsive web applications. Skilled in React, APIs, and version control with Git/GitHub.
+Professional Summary
+Self-taught Junior Web Developer with expertise in HTML, CSS, JavaScript (ES6+), React, and Node.js. Built and deployed full-stack applications, including a weather app with OpenWeather API and an e-commerce prototype with Stripe integration. Certified in Responsive Web Design and JavaScript Algorithms by freeCodeCamp. Passionate about creating user-friendly, responsive web solutions.
 
 ---
 

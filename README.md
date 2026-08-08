@@ -1,10 +1,14 @@
 
-👋 Hi, I'm Mario Dumitrica
+👋 Hi, I'm Mario Ciprian Dumitrica
 ---
 
  🙋‍♂️ About Me
 Professional Summary
-Self-taught Junior Web Developer with expertise in HTML, CSS, JavaScript (ES6+), React, and Node.js. Built and deployed full-stack applications, including a weather app with OpenWeather API and an e-commerce prototype with Stripe integration. Certified in Responsive Web Design and JavaScript Algorithms by freeCodeCamp. Passionate about creating user-friendly, responsive web solutions.
+
+Self-taught Junior Web Developer with hands-on experience building and deploying modern web applications using
+React, JavaScript (ES6+), Node.js, Express, REST APIs, HTML5, CSS3, and Git. Developed end-to-end projects
+including a browser-based PDF editor, a weather application, and an e-commerce platform with Stripe integration. Passionate
+about continuous learning, problem-solving, and building practical solutions through code
 
 ---
 
@@ -14,6 +18,7 @@ Chrome DevTools
 
 ---
 📂 Projects
+    -NovoPDF
     -Weather Pixel App 
     -Ecommerce Store
     -To-Do List App 
@@ -21,15 +26,14 @@ Chrome DevTools
 ---
 
 🚀 What I'm Up To
- Crafting AI-powered integrations and building tools to empower beginner traders to conquer the markets! 📈
- 
+learning code 
  ---
 
  📜 Certifications
 - [✔️ Responsive Web Design (freeCodeCamp)](https://www.freecodecamp.org/certification/MarioDumi27/responsive-web-design)
 - JavaScript Algorithms (in progress)
 - Baccalaureate
-- 
+- Universitatea Titu Maiorescu Informatica (ANUL I)
 ---
 🌐 Connect with me:
 

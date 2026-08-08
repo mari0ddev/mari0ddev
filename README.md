@@ -25,8 +25,8 @@ Chrome DevTools
     
 ---
 
-🚀 What I'm Up To
-learning code 
+🚀 What I'm Up To --
+to continue learning code 
  ---
 
  📜 Certifications
